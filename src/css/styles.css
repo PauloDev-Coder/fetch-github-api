@@ -193,3 +193,23 @@ main {
     padding: 0;
   }
 }
+
+.container .profile-data .repositories ul li {
+  border: 1px solid grey;
+  margin: 5px;
+  display: block;
+  border-radius: 7px;
+  transition: 0.3s ease-in-out;
+  text-align: center;
+}
+
+.container .profile-data .repositories ul li p {
+  margin: 10px ;
+  font-size: 14px;
+  color: #333;
+}
+
+.container .profile-data .repositories ul li a:hover {
+  background-color: hotpink;
+  color: #fff;
+}
